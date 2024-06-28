@@ -10,3 +10,5 @@ managedNodeGroups:
     instanceType: m5.large
     desiredCapacity: 2
     spot: true
+
+#eksctl create cluster --config-file=eks.yaml
